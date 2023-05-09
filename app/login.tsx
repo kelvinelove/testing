@@ -7,11 +7,11 @@ export default function LoginPage() {
   const [loginDisabled, setLoginDisabled] = useState(true);
   const router = useRouter();
 
-  const handleUsernameChange = (event) => {
+  const handleUsernameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUsername(event.target.value);
   };
 
-  const handlePasswordChange = (event) => {
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(event.target.value);
     setLoginDisabled(
       event.target.value.length < 8 ||
@@ -19,7 +19,7 @@ export default function LoginPage() {
     );
   };
 
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (username === 'admin' && password === 'admin@123') {
       router.push('/home');

@@ -21,6 +21,11 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Learn More
 
 
-Note: I was unable to complete this project during the interview due to some package installation errors (the network was down for most of the exam). I could not even install the basic requirements of the project. However, as per the advice of the invigilating team (Mandhla), I just wrote the code as is to showcase what I was trying to achieve
+Note: I was unable to complete this project during the interview due to some package installation errors (the network was down for most of the exam). I could not even install the basic requirements of the project. However, as per the advice of the invigilating team (Mandhla), I just wrote the code as is to showcase what I was trying to achieve. When it worked, it was haning up and I couldn't even push my code:
+
+![Image](/network.png)
 
 Please review the code. If possible, I would love to retake the examination when the network is stable.
+<br />
+
+I also used an open source third party API (https://restcountries.com/v3.1/all) to fetch all the countries
